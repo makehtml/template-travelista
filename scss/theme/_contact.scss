@@ -22,8 +22,8 @@
         }
     }
     .form-area {
-        .form-control{
-            &:focus{
+        .form-control {
+            &:focus {
                 box-shadow: none!important;
                 border-color:#ced4da!important;
             }
@@ -52,8 +52,8 @@
             }
         }
     }
-    .address-wrap{
-        @media(max-width:991px){
+    .address-wrap {
+        @media(max-width:991px) {
             margin-bottom:30px;
         }
         .single-contact-address {

@@ -3,31 +3,32 @@
 /* =================================== */
 
 
-.insurence-right,.insurence-left{
-    h6{
+.insurence-right,
+.insurence-left {
+    h6 {
         font-weight: 500;
     }
-    h1{
+    h1 {
         margin:20px 0px;
     }
-    p{
+    p {
         max-width: 445px;
     }
-    img{
+    img {
         width:100%;   
     }    
 }
 
 
 
-.list-wrap{
+.list-wrap {
     background:#fbfcff;
     max-width: 445px;
     padding:30px;
-    ul{
+    ul {
         list-style-image: url('../img/insurence/bullet.png');
     }
-    li{
+    li {
         padding-left: 12px;            
         font-weight:500;
         font-size:14px;
@@ -36,8 +37,8 @@
     }
 }
 
-@media(max-width:991px){
-    .img-one{
+@media(max-width:991px) {
+    .img-one {
         margin-bottom:45px;
     }   
 }

@@ -91,7 +91,7 @@ $disable: (#222222, .3);
 	padding: 100px 0 70px 0;
 }
 
-.sample-text{
+.sample-text {
 	margin-bottom:0;
 }
 
@@ -100,20 +100,20 @@ $disable: (#222222, .3);
 	font-size: 24px;
 }
 
-.typo-list{
+.typo-list {
 	margin-bottom:10px;
 }
 
 
-.typo-sec{
-	@media(max-width:767px){
+.typo-sec {
+	@media(max-width:767px) {
 		margin-bottom:30px;
 	}
 }
 
 
-.element-wrap{
-	@media(max-width:767px){
+.element-wrap {
+	@media(max-width:767px) {
 		margin-top:30px;
 	}
 }
@@ -373,7 +373,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-left: 2px solid $primary;
 }
 .progress-table-wrap {
-	@media(max-width:991px){
+	@media(max-width:991px) {
 		overflow-x: scroll;
 	}
 }
@@ -462,7 +462,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-size: cover !important;
 	height: 200px;
 	@include transition();
-	&:hover{
+	&:hover {
 		opacity:.8;
 	}
 }
@@ -649,7 +649,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-.single-element-widget{
+.single-element-widget {
 	margin-bottom:30px;
 }
 
@@ -1051,8 +1051,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.left-align-p p{
-	@media(max-width: 991px){
+.left-align-p p {
+	@media(max-width: 991px) {
 		margin-top:20px;
 	}
 }

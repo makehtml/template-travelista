@@ -160,10 +160,10 @@
     }
 }
 
-.posts-list{
-    .posts-title h3{
+.posts-list {
+    .posts-title h3 {
         @include transition();
-        &:hover{
+        &:hover {
             color:$primary-color;
         }        
     }
@@ -329,7 +329,7 @@
                     font-weight: 600;
                     margin-bottom: 10px;
                     @include transition();
-                    &:hover{
+                    &:hover {
                         color:$primary-color;
                     }
                 }
@@ -577,8 +577,8 @@
         }
     }
 
-    .sidebar-widgets{
-        @media(max-width:991px){
+    .sidebar-widgets {
+        @media(max-width:991px) {
             padding-bottom:0px;
         }
     }

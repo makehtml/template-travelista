@@ -3,7 +3,7 @@
 /* =================================== */
 
 
-    .footer-area{
+    .footer-area {
         background:#04091e;
         padding-top:100px;
             .footer-nav {
@@ -68,7 +68,7 @@
                         }
                     }
                 }
-    h6{
+    h6 {
         text-transform:uppercase;
         color:#fff;
         margin-bottom:25px;
@@ -76,8 +76,8 @@
         font-weight:600;
     }
         }
-    .copy-right-text{
-        i,a{
+    .copy-right-text {
+        i,a {
             color:$primary-color;
         }
     }
@@ -95,9 +95,9 @@
     }
 
 
-    .footer-social{
+    .footer-social {
         text-align:right;
-        a{
+        a {
             width: 20px;
             width: 40px;
             display: inline-table;
@@ -105,14 +105,14 @@
             text-align: center;
             padding-top: 10px;
             @include transition();
-            &:hover{
-                i{
+            &:hover {
+                i {
                     color:$primary-color;
                 }
             }
         }
         
-        i{
+        i {
             color:#cccccc;
             @include transition();
 
@@ -136,7 +136,7 @@
             padding-left:20px;
             width:80%;
         }
-        .bb-btn{
+        .bb-btn {
             background-color:$primary-color;
             color:#fff;
             font-weight:300;
@@ -146,10 +146,10 @@
 
             
         @media(max-width:960px) {
-            .nw-btn{
+            .nw-btn {
                 margin-top:20px;
             }
-            .newsletter{
+            .newsletter {
                 padding-bottom: 40px;
             }
 
@@ -204,16 +204,16 @@
         @include media-breakpoint-down(md) {
             margin-bottom:70px;
         }
-        p{
+        p {
             color:$text-color;
         }
-        ul{
-            li{
+        ul {
+            li {
                 margin-bottom:12px;
-                a{
+                a {
                     color:$text-color;
                     @include transition();
-                    &:hover{
+                    &:hover {
                         color:$primary-color;
                     }       
                 }
@@ -222,15 +222,15 @@
 
     }
 
-    .footer-bottom{
+    .footer-bottom {
         padding-top:40px;
         margin-top:20px;
         border-top:1px solid #333;
     }
 
 
-    .footer-text{
-        a,i{
+    .footer-text {
+        a,i {
         color:$primary-color;
     }
 }        
